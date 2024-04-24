@@ -30,7 +30,7 @@ pub fn build(b: *std.Build) void {
     b.installArtifact(lib);
 
     // this add a command line option to zig build via the -Dflag. i.e -Dloop
-    const use_loop = b.options(bool, "loop", "use non-recursive fibonacci") orelse false;
+    const use_loop = b.option(bool, "loop", "use non-recursive fibonacci") orelse false;
 
     // Make a build decision based on that option
     const fibonacci_file: []const u8 = if (use_loop) "src/fib_loop.zig" else "src/fib_recurse.zig";

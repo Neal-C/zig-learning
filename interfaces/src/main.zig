@@ -13,6 +13,9 @@ fn printStringer(s: Stringer) !void {
     std.debug.print("{s}\n ", .{str});
 }
 
+// pwd = interfaces/
+// ! zig build run
+
 pub fn main() !void {
     // Tagged union interface
 

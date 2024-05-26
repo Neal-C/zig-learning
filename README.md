@@ -1,3 +1,5 @@
+# My Zig learning journey
+
 ## Learning zig
 
 Mainly works with zig 0.11.0 release
@@ -5,3 +7,4 @@ Mainly works with zig 0.11.0 release
 Somewhat works with zig 0.12.0 dev releases
 
 Prefer dev releases
+
